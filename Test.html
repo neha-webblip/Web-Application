@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel = "stylesheet" type = "text/css" href = "teststyle.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class = "register"> 
+    <h1>Add/Update Person</h1>
+</div>
+
+    <div class = "reg">
+        <form method = "post" id = "main" action = "">
+            <label><b>Name: </b></label>
+            <input type = "text" name = Name id="name" placeholder="Enter Name"> <br><br>
+
+            <label><b>Gender: </b></label>
+            <input type = "radio" name = "Gender"> Male
+            <input type = "radio" name = "Gender"> Female
+
+            <br> <br>
+
+            <label><b>Age: </b></label>
+            <input type = "number" name = Age id="age" placeholder="Enter Age"> <br><br>
+<br>
+            <label><b>City: </b> </label>
+            <select class = "option" name = "city">
+            <option disabled = "disabled" selected = "selected">-Choose Option</option>
+            <option>Lahore</option>
+            <option>Islamabad</option>
+            <option>Multan</option>
+            <option>Karachi</option>
+            <option>Okara</option>
+            <option>Quetta</option>
+            <option>Gujranwala</option>
+            <option>Faisalabad</option>
+            <option>Sukkur</option>
+            <option>Peshawar</option>
+    </select>
+            <br>
+            <br>
+            <br>
+           <button type = "submit">reset</button>
+           <button type = "submit">add</button>
+           <button type = "submit">update</button>
+
+
+        </form>
+    </div>
+</body>
+</html>
